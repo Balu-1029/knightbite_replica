@@ -62,8 +62,8 @@ body{
 .store img{
     border: solid 1px white;
     border-radius: 10px;
-    width:180px;
-    height:50px;
+    width:190px;
+    height:45px;
     transition:.3s;
 }
 
