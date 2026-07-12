@@ -94,7 +94,7 @@ const Franchise = () => {
         <h2>Franchise queries</h2>
         <div>
           <a href="#apply"><img src={footer1} alt="" />Franchise brochure</a>
-          <a href="tel:08047192034"><img src={footer2} alt="" />080 4719 XXXX</a>
+          <a href="tel:08047192034"><img src={footer2} alt="" />950 223 XXXX</a>
           <a href="mailto:franchise@knight-bite.com"><img src={footer3} alt="" />franxxxx@knight-xxxx.com</a>
         </div>
       </section>
