@@ -149,44 +149,6 @@ knightbite_replica/
 
 ---
 
-## 💻 Clone and Run Locally
-
-```bash
-git clone <your-repository-url>
-cd knightbite_replica
-npm install
-npm run dev
-```
-
-Open the local URL shown in the terminal, usually `http://localhost:5173`.
-
-### Available Commands
-
-```bash
-npm run dev      # Start the development server
-npm run build    # Create the production build
-npm run preview  # Preview the production build
-npm run lint     # Lint source files
-```
-
----
-
-## 🚀 Deploy on Vercel
-
-1. Push the project to GitHub, GitLab, or Bitbucket.
-2. Open [Vercel](https://vercel.com/new) and import the repository.
-3. Vercel detects Vite automatically. Keep these settings:
-
-   * Build command: `npm run build`
-   * Output directory: `dist`
-
-4. Click **Deploy**.
-5. Copy the deployed URL into the **Live Application** section above.
-
-The included `vercel.json` ensures that routes such as `/menu`, `/about`, and `/franchise` work when visited directly.
-
----
-
 ## 📈 Use Cases
 
 * React portfolio project
