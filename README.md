@@ -144,7 +144,7 @@ knightbite_replica/
 * 🚀 Vercel Deployment: **https://knightbite-v1.vercel.app/**
 
   ```text
-  https://your-project-name.vercel.app
+  https://knightbite-v1.vercel.app/
   ```
 
 ---
