@@ -73,7 +73,7 @@ const Home = () => {
           <h2>Contact Us</h2>
 
           <p>
-            <strong>Email :</strong> tastexxxbite@gmail.com
+            <strong>Email :</strong> tasxxxxxbite@gmail.com
           </p>
 
           <p>
@@ -86,7 +86,7 @@ const Home = () => {
 
           <h3>Main Branch</h3>
 
-          <p>Jay Nagar, Bengaluru - 560190</p>
+          <p>Chikkalsandra, Bengaluru - 560061</p>
 
           <h3>Locations</h3>
 
