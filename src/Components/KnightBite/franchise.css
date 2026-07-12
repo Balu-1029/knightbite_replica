@@ -1,0 +1,340 @@
+.franchise-page {
+    color: #292626;
+    background: #fff;
+}
+
+.franchise-hero {
+    position: relative;
+    display: grid;
+    min-height: 100svh;
+    place-items: center;
+    isolation: isolate;
+    color: #fff;
+    text-align: center;
+}
+
+.franchise-hero__video {
+    position: absolute;
+    z-index: -2;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.franchise-hero::after {
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    content: '';
+    background: rgba(17, 10, 10, 0.6);
+}
+
+.franchise-hero__content {
+    width: min(900px, 88%);
+    padding: 4rem 0;
+}
+
+.franchise-hero__content p,
+.franchise-kicker {
+    margin: 0 0 0.9rem;
+    color: #df1f5a;
+    font-size: 0.73rem;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+
+.franchise-hero__content p {
+    color: #fff;
+}
+
+.franchise-hero h1 {
+    margin: 0;
+    font-size: clamp(2.7rem, 6vw, 5.6rem);
+    font-weight: 600;
+    letter-spacing: -0.06em;
+}
+
+.franchise-hero h2 {
+    margin: 1rem 0 2.2rem;
+    font-size: clamp(1.1rem, 2vw, 1.5rem);
+    font-weight: 400;
+}
+
+.franchise-hero a {
+    display: inline-block;
+    padding: 0.9rem 1.7rem;
+    background: #e0205c;
+    color: #fff;
+    font-size: 0.85rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.franchise-mission,
+.franchise-benefits,
+.franchise-apply {
+    width: min(1120px, 88%);
+    margin: 0 auto;
+    padding: clamp(4.5rem, 8vw, 7rem) 0;
+}
+
+.franchise-mission,
+.franchise-benefits,
+.franchise-apply {
+    width: 100%;
+    margin: 0;
+    padding-right: max(6%, calc((100% - 1120px) / 2));
+    padding-left: max(6%, calc((100% - 1120px) / 2));
+}
+
+.franchise-mission {
+    padding-right: clamp(1.5rem, 5vw, 5rem);
+    padding-left: clamp(1.5rem, 5vw, 5rem);
+    background-image: linear-gradient(rgba(24, 14, 19, 0.82), rgba(24, 14, 19, 0.88)), url('../../assets/images/banner-1.webp');
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+.franchise-mission .franchise-kicker,
+.franchise-mission h2 {
+    color: #fff;
+}
+
+.franchise-mission h2,
+.franchise-benefits h2,
+.franchise-apply h2,
+.franchise-contact h2 {
+    margin: 0;
+    font-size: clamp(2rem, 4vw, 3.5rem);
+    font-weight: 600;
+    letter-spacing: -0.05em;
+}
+
+.franchise-mission>div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1px;
+    margin-top: 3rem;
+    background: #e8e8e8;
+}
+
+.franchise-mission>div p {
+    margin: 0;
+    padding: 2.4rem;
+    background: #fff;
+    color: #676464;
+    line-height: 1.8;
+    text-align: left;
+}
+
+.franchise-mission strong {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #242121;
+    font-size: 1.1rem;
+}
+
+.franchise-benefits {
+    border-top: 1px solid #e8e8e8;
+    padding-right: clamp(1.5rem, 5vw, 5rem);
+    padding-left: clamp(1.5rem, 5vw, 5rem);
+    background-image: linear-gradient(rgba(255,255,255,.86), rgba(255,255,255,.92)), url('../../assets/images/banner.webp');
+    background-position: center;
+    background-size: cover;
+}
+
+.franchise-benefits header {
+    max-width: 650px;
+    margin-bottom: 3rem;
+}
+
+.franchise-benefits__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-top: 1px solid #e8e8e8;
+    border-left: 1px solid #e8e8e8;
+}
+
+.franchise-benefits article {
+    min-height: 235px;
+    padding: 2rem;
+    border-right: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.franchise-benefits article:last-child {
+    grid-column: 2;
+}
+
+.franchise-benefits article>img { width: 54px; height: 54px; object-fit: contain; }
+
+.franchise-benefits h3 {
+    margin: 1rem 0 0.7rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.franchise-benefits article p {
+    margin: 0;
+    color: #777;
+    font-size: 0.92rem;
+    line-height: 1.65;
+}
+
+.franchise-apply {
+    padding-right: clamp(1.5rem, 5vw, 5rem);
+    padding-left: clamp(1.5rem, 5vw, 5rem);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.84), rgba(255, 255, 255, 0.9)), url('../../assets/images/app-menu.webp');
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 0.8fr 1.2fr;
+    gap: clamp(2.5rem, 7vw, 7rem);
+    align-items: start;
+    border-top: 1px solid #e8e8e8;
+}
+
+.franchise-apply__intro>p:last-child {
+    margin: 1.2rem 0 0;
+    color: #777;
+    line-height: 1.7;
+}
+
+.franchise-apply form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    padding: clamp(1.5rem, 3vw, 2.5rem);
+    border: 1px solid #ded8da;
+    background: #fff;
+}
+
+.franchise-apply input,
+.franchise-apply select,
+.franchise-apply textarea {
+    width: 100%;
+    padding: 0.9rem 0;
+    border: 0;
+    border-bottom: 1px solid #cfcfcf;
+    outline: none;
+    color: #393535;
+    font: inherit;
+    font-size: 0.9rem;
+}
+
+.franchise-apply textarea {
+    resize: vertical;
+}
+
+.franchise-form__full {
+    grid-column: 1 / -1;
+}
+
+.franchise-check {
+    color: #6e6e6e;
+    font-size: 0.83rem;
+}
+
+.franchise-check input {
+    width: auto;
+    margin-right: 0.45rem;
+}
+
+.franchise-apply button {
+    margin-top: 0.8rem;
+    padding: 1rem;
+    border: 0;
+    background: #e0205c;
+    color: #fff;
+    cursor: pointer;
+    font: inherit;
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.franchise-success {
+    margin: 0;
+    color: #218852;
+    font-size: 0.88rem;
+}
+
+.franchise-contact {
+    padding: clamp(4.5rem, 8vw, 6rem) 6%;
+    background: #211c1e;
+    color: #fff;
+    text-align: center;
+}
+
+.franchise-contact>.franchise-kicker {
+    color: #ff719c;
+}
+
+.franchise-contact>div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem 3rem;
+    margin-top: 2rem;
+}
+
+.franchise-contact a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+    color: #fff;
+    font-size: 0.92rem;
+    text-decoration: none;
+}
+
+.franchise-contact a img { width: 25px; height: 25px; object-fit: contain; }
+
+.franchise-contact a:hover {
+    color: #ff719c;
+}
+
+@media (max-width: 800px) {
+    .franchise-hero {
+        min-height: 560px;
+    }
+
+    .franchise-benefits__grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .franchise-benefits article:last-child {
+        grid-column: auto;
+    }
+
+    .franchise-apply {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 560px) {
+
+    .franchise-mission>div,
+    .franchise-benefits__grid,
+    .franchise-apply form {
+        grid-template-columns: 1fr;
+    }
+
+    .franchise-mission>div p {
+        padding: 1.8rem;
+    }
+
+    .franchise-benefits article {
+        min-height: auto;
+    }
+
+    .franchise-mission,
+    .franchise-apply {
+        width: 100%;
+    }
+}

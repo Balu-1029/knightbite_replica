@@ -1,0 +1,175 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;font-family: sans-serif;    
+}
+
+.app {
+    min-height: 100vh;
+}
+
+.app--dark {
+    background: #171215;
+    color: #f5eff2;
+}
+
+.app--dark .menu-page,
+.app--dark .about-box,
+.app--dark .franchise-page {
+    background: #171215;
+    color: #f5eff2;
+}
+
+.app--dark .menu-page {
+    background: linear-gradient(rgba(23, 18, 21, 0.48), rgba(23, 18, 21, 0.58)), url('./assets/images/menubanner.webp') center / cover fixed;
+}
+
+.app--dark .about-box,
+.app--dark .franchise-page {
+    background: #171215;
+}
+
+.app--dark .menu-content {
+    background: transparent;
+}
+
+.app--dark .about-row {
+    background: #251d21;
+}
+
+.app--dark .menu-discovery {
+    background: transparent;
+}
+
+.app--dark .menu-card,
+.app--dark .menu-filters button,
+.app--dark .menu-search input,
+.app--dark .dietary-filters button,
+.app--dark .franchise-apply form,
+.app--dark .franchise-mission > div p {
+    border-color: #4b3b43;
+    background: #251d21;
+    color: #f5eff2;
+}
+
+.app--dark .menu-heading h2,
+.app--dark .menu-card h3,
+.app--dark .menu-card__body strong,
+.app--dark .franchise-mission h2,
+.app--dark .franchise-benefits h2,
+.app--dark .franchise-apply h2,
+.app--dark .franchise-mission strong,
+.app--dark .about-text p {
+    color: #fff;
+}
+
+.app--dark .menu-card__body span,
+.app--dark .franchise-mission > div p,
+.app--dark .franchise-benefits article p,
+.app--dark .franchise-apply__intro > p:last-child,
+.app--dark .about-text p,
+.app--dark .menu-empty {
+    color: #d5c8ce;
+}
+
+.app--dark .menu-filters button {
+    border-color: #70535f;
+    color: #fff;
+}
+
+.app--dark .menu-filter__icon {
+    background: rgba(255, 255, 255, 0.16);
+}
+
+.app--dark .menu-filter__icon img {
+    filter: brightness(1.45) saturate(1.25);
+}
+
+.app--dark .menu-filters button.is-active .menu-filter__icon img {
+    filter: brightness(0) invert(1);
+}
+
+.app--dark .menu-card__meta .is-veg {
+    background: #1d5730;
+    color: #d9ffe4;
+}
+
+.app--dark .menu-card__meta .is-nonveg {
+    background: #743023;
+    color: #ffe2da;
+}
+
+.app--dark .franchise-benefits,
+.app--dark .franchise-apply,
+.app--dark .franchise-benefits__grid,
+.app--dark .franchise-benefits article,
+.app--dark .franchise-mission > div {
+    border-color: #4b3b43;
+}
+
+.app--dark .franchise-apply input,
+.app--dark .franchise-apply select,
+.app--dark .franchise-apply textarea {
+    border-color: #67535d;
+    background: #251d21;
+    color: #fff;
+}
+
+.app--dark .franchise-apply {
+    background-image: linear-gradient(rgba(23, 18, 21, 0.82), rgba(23, 18, 21, 0.9)), url('./assets/images/app-menu.webp');
+}
+
+.app--dark .franchise-apply h2,
+.app--dark .franchise-apply__intro > p:last-child {
+    color: #fff;
+}
+
+.app--dark .contacts {
+    background: #21191d;
+}
+
+.app--dark .contacts {
+    background: linear-gradient(rgba(33, 25, 29, 0.92), rgba(33, 25, 29, 0.96)), url('./assets/images/app-menu.webp') center / cover;
+}
+
+.app--dark .franchise-benefits {
+    background-image: linear-gradient(rgba(23, 18, 21, 0.87), rgba(23, 18, 21, 0.93)), url('./assets/images/banner.webp');
+}
+
+.app--dark .container2 {
+    background: #171215;
+}
+
+.app--dark .contact p,
+.app--dark .contact h2,
+.app--dark .connect h2 {
+    color: #f5eff2;
+}
+
+.app--dark .connect input {
+    border-color: #594650;
+    background: #2b2026;
+    color: #fff;
+}
+
+.app--dark .cart-drawer,
+.app--dark .cart-quantity button,
+.app--dark .checkout-form input,
+.app--dark .checkout-form textarea,
+.app--dark .cart-drawer__header > button {
+    border-color: #4b3b43;
+    background: #251d21;
+    color: #f5eff2;
+}
+
+.app--dark .cart-drawer__header,
+.app--dark .cart-item,
+.app--dark .cart-summary,
+.app--dark .checkout-total {
+    border-color: #4b3b43;
+}
+
+.app--dark .cart-item p,
+.app--dark .cart-empty p,
+.app--dark .cart-success p,
+.app--dark .checkout-form label {
+    color: #d5c8ce;
+}

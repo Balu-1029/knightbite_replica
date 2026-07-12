@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:linear-gradient(rgba(255,255,255,.92),rgba(255,255,255,.96)),url('../../assets/images/food-strip.webp') center/cover;
+    overflow-x:hidden;
+}
+
+
+
+.container{
+    position:relative;
+    width:100%;
+    height:100vh;
+    overflow:hidden;
+}
+
+.container img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    object-position:center;
+}
+
+.overlay{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,.35);
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.overlay h1{
+    color:#fff;
+    font-size:72px;
+    font-weight:700;
+    letter-spacing:5px;
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.store{
+    display:flex;
+    gap:25px;
+}
+
+.store img{
+    border: solid 1px white;
+    border-radius: 10px;
+    width:180px;
+    height:50px;
+    transition:.3s;
+}
+
+.store img:hover{
+    transform:scale(1.05);
+}
+
+
+.container2{
+    width:100%;
+    padding:10px 0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#fff;
+}
+
+.container2 img{
+    width:100%;
+    height:auto;
+}
+
+
+
+.container3{
+    position:relative;
+    width:100%;
+    height:80vh;
+    overflow:hidden;
+}
+
+.container3 img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.container3 .overlay{
+    position:absolute;
+    inset:0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:rgba(0,0,0,.30);
+}
+
+.container3 h1{
+    color:#fff;
+    font-size:55px;
+    text-align:center;
+    letter-spacing:2px;
+}
+
+
+
+.container4{
+    position:relative;
+    width:100%;
+    height:80vh;
+    overflow:hidden;
+}
+
+.container4 img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.container4 .overlay{
+    position:absolute;
+    inset:0;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background:rgba(0,0,0,.35);
+}
+
+.container4 h1{
+    color:#fff;
+    width:80%;
+    text-align:center;
+    font-size:46px;
+    margin-bottom:35px;
+}
+
+.menu-btn{
+    padding:15px 38px;
+    border:none;
+    border-radius:30px;
+    background:#ff4d6d;
+    font-size:16px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.menu-btn a{
+    color:#fff;
+    text-decoration:none;
+}
+
+.menu-btn:hover{
+    background:#e53960;
+}
+
+
+
+.contacts{
+    display:flex;
+    justify-content:space-between;
+    gap:60px;
+    padding:80px 10%;
+    background:linear-gradient(rgba(248,248,248,.91),rgba(248,248,248,.95)),url('../../assets/images/app-menu.webp') center/cover;
+}
+
+.contact,
+.connect{
+    flex:1;
+}
+
+.contact h2,
+.connect h2{
+    font-size:32px;
+    margin-bottom:25px;
+}
+
+.contact h3{
+    margin-top:25px;
+}
+
+.contact p{
+    margin:12px 0;
+    color:#555;
+    line-height:1.8;
+}
+
+.connect form{
+    display:flex;
+    flex-direction:column;
+    gap:18px;
+}
+
+.connect input{
+    padding:16px;
+    border:1px solid #ccc;
+    border-radius:8px;
+    font-size:15px;
+}
+
+.connect input:focus{
+    outline:none;
+    border-color:#ff4d6d;
+}
+
+.connect button{
+    padding:16px;
+    border:none;
+    border-radius:8px;
+    background:#ff4d6d;
+    color:#fff;
+    font-size:16px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.connect button:hover{
+    background:#e53960;
+}
+
+.form-success{
+    margin:0;
+    color:#218852;
+    font-size:14px;
+}
+
+
+
+.footer{
+    background:#111;
+    color:#fff;
+    text-align:center;
+    padding:25px;
+}
+
+.footer h4{
+    font-weight:400;
+}
+
+
+
+@media(max-width:992px){
+
+    .overlay h1{
+        font-size:50px;
+    }
+
+    .container3 h1{
+        font-size:40px;
+    }
+
+    .container4 h1{
+        font-size:36px;
+    }
+
+}
+
+@media(max-width:768px){
+
+    .container{
+        height:80vh;
+    }
+
+    .overlay h1{
+        font-size:34px;
+        width:90%;
+    }
+
+    .store{
+        flex-direction:column;
+        align-items:center;
+        gap:15px;
+    }
+
+    .store img{
+        width:150px;
+    }
+
+    .container2 img{
+        width:95%;
+    }
+
+    .container3,
+    .container4{
+        height:60vh;
+    }
+
+    .container3 h1,
+    .container4 h1{
+        width:90%;
+        font-size:28px;
+    }
+
+    .contacts{
+        flex-direction:column;
+        padding:50px 8%;
+    }
+
+}
