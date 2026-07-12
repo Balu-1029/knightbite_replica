@@ -141,7 +141,7 @@ knightbite_replica/
 
 ## 🌐 Live Application
 
-* 🚀 Vercel Deployment: **Add your deployed URL here**
+* 🚀 Vercel Deployment: **https://knightbite-v1.vercel.app/**
 
   ```text
   https://your-project-name.vercel.app
