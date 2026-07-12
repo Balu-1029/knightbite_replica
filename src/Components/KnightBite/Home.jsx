@@ -73,11 +73,11 @@ const Home = () => {
           <h2>Contact Us</h2>
 
           <p>
-            <strong>Email :</strong> tastethebite@gmail.com
+            <strong>Email :</strong> tastexxxbite@gmail.com
           </p>
 
           <p>
-            <strong>Phone :</strong> +91 9810765432
+            <strong>Phone :</strong> +91 98107XXXX
           </p>
 
           <p>
@@ -138,7 +138,7 @@ const Home = () => {
       <footer className="footer">
 
         <h4>
-          © 2026 Taste The Bite. All Rights Reserved.
+          © 2026 Balaji Kota. This project is a frontend clone of KnightBite created solely for learning and portfolio purposes. It is not affiliated with or endorsed by KnightBite.
         </h4>
 
       </footer>
