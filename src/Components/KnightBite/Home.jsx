@@ -77,7 +77,7 @@ const Home = () => {
           </p>
 
           <p>
-            <strong>Phone :</strong> +91 98107XXXX
+            <strong>Phone :</strong> +91 95022XXXX
           </p>
 
           <p>
